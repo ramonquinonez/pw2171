@@ -1,5 +1,3 @@
-este es un ejemplo de la clase de pw 
-Estoy realizando un cambio en el archivo
 commit 6d18cc3d273906dff3a085097a911ec64bc460e0
 Author: ramonquinonez <nomar07p10@hotmail.com>
 Date:   Thu Feb 16 14:27:44 2017 -0700
@@ -11,5 +9,3 @@ Author: ramonquinonez <nomar07p10@hotmail.com>
 Date:   Wed Feb 15 14:20:39 2017 -0700
 
     Primer commit
-
-texto agregado en la rama llamada: mirada Xdxxdxdxd
