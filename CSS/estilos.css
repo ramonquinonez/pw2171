@@ -1,0 +1,75 @@
+
+
+	/*1.- Pseudo-
+	TODOS ELLOS TIENEN ATRIBUTOS
+	2.- Etiquetas <etiqueta>
+	TODOS ELLOS TIENEN ATRIBUTOS
+	3.- Identificadores
+	TODOS ELLOS TIENEN ATRIBUTOS
+	4.- Clases
+	TODOS ELLOS TIENEN ATRIBUTOS
+	5.- Elemento de responsave design
+		(diseño adaptativo) 
+	TODOS ELLOS TIENEN ATRIBUTOS	
+	6.-
+
+	Todos ellos en orden alfabetico
+	Tanto elementos como atributos */
+	body {
+		 background: #FFFFFF;
+		 border: 05px solid purple;
+		 color: purple;
+		 font-size: 16px;
+		 max-width: 1024px;
+		 margin:0px auto;
+
+	}
+	footer{
+		width:100%;
+		background:purple;
+		color:orange;
+		font-size:1em;
+		text-align:center;
+	}
+	header{
+		border:2px solid #E65F00;
+		text-align: center;
+
+	}
+header img:hover{
+		box-shadow:3px 3px 9px orange;
+
+	}
+
+	header img{
+		float:right;
+		margin: -70px 20px 0px 0px;
+		width:70px;
+		
+	}
+
+header nav ul li{
+	border: 1px solid #E65F00;
+	display: inline-block;
+	background: #FCC300;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 10px 0px 10px;
+	width:84px;
+	color:purple;
+	border-radius:100000000000000px;
+	box-shadow: 5px 5px 5px purple;
+}
+header nav ul li:hover
+{
+	background: purple;	
+	color: orange;
+	box-shadow: 5px 5px 15px orange ;
+	border: 2px black;
+}
+ main article{
+	border: 5px black;
+	display:inline-block;
+	vertical-align:top;
+	width:48%;
+	
+}
