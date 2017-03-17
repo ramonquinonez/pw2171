@@ -8,6 +8,16 @@ form{
 	float:right;
 	margin-top:-35px;
 	margin-right:25px;
+
+}
+form input{
+	border-radius:6px;
+
+}
+form input[type="button"]{
+	background:green;
+	color:white;
+	border:2px solid green;
 }
 header{
 	background: #B3D8EB;
@@ -26,6 +36,48 @@ header nav ul li{
 	color:white;
 	display:inline-block;
 	margin-right:20px;
+	padding: 5px 5px 5px 5px;
+	border:2px;
+	border-radius:5px;
 
+
+}
+header nav ul li:hover{
+	background:white;
+	color:blue;
+	border-radius:5px;
+}
+#Seccion01 article{
+	background:white;
+	text-align:center;
+	
+}
+#Seccion01 article img{
+	border:2px solid rgba(150,150,150,.5);
+	margin-top:7.5px;
+	width:98.5%;
+}
+#Seccion02 article{
+	display:inline-block;
+	vertical-align:top;
+	width:32.5%;
+	
+}
+.UnaSeccion{
+	font-size:3.75em;
+	font-weight:bold;/*Negritas*/
+}
+.OtraSeccion{
+	font-size:2.5em;
+	font-weight:bold; /*Negritas*/
+}
+#Seccion02 article span{
+	font-family: 'Oswald', sans-serif;
+}
+article input[type="Submit"]{
+	background:white;
+	color: blue;
+	border-radius:5px;
+	margin-right:5px auto;
 
 }
