@@ -68,7 +68,7 @@ header nav ul li{
 	list-style:none;
 }
 #Sec1article2 ul li:before{
-	content:"•";
+	content:"</>";
 	color:#FF0099;
 
 }
@@ -115,6 +115,7 @@ header nav ul li{
 #sec3art4{
 	margin-top:60px;
 	margin-left:20px;
+	
 }
 #terceraseccion input[type="button"]{
 	color:white;
@@ -125,4 +126,5 @@ header nav ul li{
 	color:gray;
 	background:white;
 	border-radius:5px;
+
 }

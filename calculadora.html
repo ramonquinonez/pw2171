@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora Básica</title>
+	<link rel="stylesheet" type="text/css" href="css/calcudora.css">
+	<script src="C:/Users/pelon/Documents/Ramon/pw2171/js/calculadora.js"></script>
+
+</head>
+<body>
+	<h1>Calculadora Básica</h1>
+	<form name="Calculadora" id="Calculator">
+	<table>
+		<tr>
+			<td colspan=4></td>
+			<input type="text" size=20 value=0 name="operando1"></input>		
+		</tr>
+		<br>
+		<tr>
+			<td colspan=4></td>
+			<input type="text" size=20 value=0 name="operando2"></input>		
+		</tr>
+		<br>
+		<tr>
+			<td colspan=4></td>
+			<input type="text" size=20 value=0 name="resultado"></input>	
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="8" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="9" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="/" onClick="(operadores(this.value)"> </td>
+		</tr>
+		<br>
+			<tr>
+			<td><input type="button" value="4" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="5" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="6" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="*" onClick="operadores(this.value)"> </td>
+		</tr>
+		<br>
+		<tr>
+			<td><input type="button" value="1" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="2" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="3" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="-" onClick="operadores(this.value)"> </td>
+		</tr>
+		<br>
+		<tr>
+			<td><input type="button" value="CE" onClick="borrar()"> </td>
+			<td><input type="button" value="0" onClick="numeros(this.value)"> </td>
+			<td><input type="button" value="=" onClick="igual()"> </td>
+			<td><input type="button" value="+" onClick="operadores(this.value)"> </td>
+		</tr>
+	</table>
+	</form>	
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+	font-size:16px;/*1em*/
+	margin:0 auto;
+	margin-top:25px;
+	max-width:1024px;
+	min-width:1024px;
+	
+	
+}
+#logo{
+	width:20%;
+	height:20%;
+}
+header nav{
+	margin-left:-50px;
+	border-bottom: 1px dashed gray;
+	margin-bottom:50px;
+	margin-top:-25px;
+
+}
+header nav ul li{
+	display:inline-block;
+	padding :0px 10px 5px 0px;
+	font-size:20px; /*1.25em*/
+	padding-bottom:10px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+	
+
+}
+#buy{
+	margin-top:-300px;
+	margin-left:675px;
+
+}
+#flotante{
+	float:right;
+}
+#go{
+
+	margin-left:750px;
+	width:15%;
+	height:15%;
+}
+
+#verde{
+	font-size:64px;/*4em*/
+	color:#78F04C;
+	font-family: 'Macondo', cursive;
+}
+#negro{
+	font-size:64px;/*4em*/
+	color:#000000;
+	font-family: 'Macondo', cursive;
+}
+#a1s1{
+	margin-top:50px;
+
+
+	
+	border-bottom: 1px dashed gray;
+}
+
+	
+#sec1{
+	margin-top:-45px;
+	width:60%;
+	
+}
+#sec2{
+	margin-top:-45px;
+	width:35%;
+}
+#bici{
+	position:relative;
+	width:85%;
+	height:50%;
+	margin-top:55px;
+	
+
+}
+#cinco{
+	position:relative;
+
+	
+}
+#sec1, #sec2{
+	height:100%;
+
+	margin-top:-100px;
+	display:inline-block;
+}
+#video1{
+	width:49%;
+	height:49%;
+}
+#video2{
+	width:49%;
+	height:49%;
+}
+#video1,#video2{
+	display:inline-block;
+	padding:0px 6.5px 0px 6.5px;
+	margin-left:-10px;
+}
+
+.footersSpan{
+  font-size: 16px;
+  color: #b8b8b8;
+  border-bottom:1px dashed gray;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+footer article{
+	padding-left:40px;
+	display:inline-block;
+	width:15%;
+}
+#logos{
+	margin-right:-10px;
+}

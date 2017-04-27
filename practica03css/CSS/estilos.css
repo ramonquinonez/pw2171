@@ -1,0 +1,72 @@
+body{
+	font-size:1em;
+	background:white;
+	margin:0px auto;
+	max-width:1024px;
+	min-width:1024px;
+}
+#logo{
+	margin-top:10px;
+	margin-left:25px;
+}
+header span{
+	font-size:1.5em;
+	color:gray;
+	margin-left:20px;
+}
+header form{
+	float:right;
+}
+header nav {
+	background:orange;
+	border:1px solid orange;
+	border-radius:10px;
+	width:1024px;
+	margin-top:50px;
+
+}
+
+header nav ul li{
+	display:inline-block;
+	background:solid orange;
+		margin-right:30px;
+	color:white;
+	font-size:1em;
+	
+}
+#primeraseccion {
+	display:inline-block;
+	border:10px solid white;
+	width:58%;
+padding-left:20px;
+}
+#segundaseccion{
+	width:37%;
+	
+	
+	
+}
+#segundaseccion article{
+margin-top:55px;
+margin-left:40px;
+border:1px solid gray;
+border-radius:15px;
+}
+#art1sec2 img{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:20px;	
+}
+#art1sec2 span{
+	width:20px;
+	background:orange;
+	border:5px solid orange;
+	font-size:1.25em;
+	margin-left:95px;
+	margin-top:10px;
+	width:25px;
+	border-radius:15px;
+	padding:auto 20px auto 20px;
+}
+#primeraseccion, #segundaseccion{
+display:inline-block;}

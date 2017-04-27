@@ -1,0 +1,177 @@
+body{
+	font-size:16px; /*1em*/
+	margin:0 auto;
+	max-width:1024px;
+	min-width:1024px;
+	background:#ECECEE;
+
+
+
+}
+#logo{
+	padding-left:425px;
+	height:80px;
+}
+header{
+	background:#265D8E;
+}
+header nav{
+	background:#ECECEE;
+	border-radius:5px;
+	text-align:right;
+	border:10px solid #ececee;
+	
+	padding: .1px 20px .1px 22px;
+
+}
+#notificacion{
+	height:48px;
+	
+}
+#mensaje{
+	height:40px;
+	
+}
+#ajuste{
+	height:40px;
+	
+}
+section #art2sec1{
+	background:white;
+	border:1px solid  #ececee;
+
+}
+header nav ul li{
+	display:inline-block;
+	
+	vertical-align:bottom;
+
+}
+#sec1,#sec2{
+	background:#ECECEE;
+	border:5px solid #ececee;
+}
+#sec1{
+	float:left;
+	width:20%;
+	border-radius:5px;
+	margin: 5px 5px 5px auto;
+	padding: 5px 5px 5px 17.5px;
+
+
+	
+}
+#panel{
+	color:white;
+	background:#20507B;
+	padding:14px 34px 16px 0px;
+
+}
+#panel img{
+	vertical-align:middle;
+
+}
+#art2sec1{
+width:100%;
+margin-top:25px;
+margin:5px :5px 5px 5px;
+
+}
+
+#art1sec1{
+border:5px solid #ececee;
+margin-top: -14px;
+margin-left:-5px;
+background:#20507B;
+color:#FEFEFE;
+width:100%;
+}
+#art1sec1 img{
+width:100.5%;
+}
+#barras{
+	width:100%;
+}
+#art1sec1 ul{
+	list-style:none;
+}
+#art1sec1  ul li:before{
+	content:"</>";
+	color:#FEFEFE
+}
+#sec2{
+	margin-left:-50px;
+	background:white;
+	width:775px;
+	border-radius:15px;
+	float:right;
+	
+}
+#art1sec2{
+	padding:15px;
+}
+#art2sec2{
+	padding:15px;
+}
+#art3sec2{
+	padding:15px;
+}
+#cubos{
+	height:70px;
+	width:87.5px;
+}
+#user{
+	height:177px;
+	width:177px;
+	text-align:center;
+}
+#cubo01, #cubo02,#cubo03,#cubo04{
+	display:inline-block;
+	padding:10px 3.6px 10px 3.6px;
+	height:140px;
+	width:175px;
+
+}
+#cubo01{
+	background:#23A72B;
+	color:white;
+	text-align:center;
+}
+#cubo02{
+	background:#216EA7;
+	color:white;
+	text-align:center;
+}
+#cubo03{
+	background:#7E23A4;
+	color:white;
+	text-align:center;
+}
+#cubo04{
+	background:#A41C1F;
+	color:white;
+	text-align:center;
+}
+#art2sec2{
+	padding:10px 3.6px 10px 3.6px;
+}
+#panels{
+	height:175px;
+	width:738px;
+}
+#art3sec2{
+	padding:10px 3.6px 10px 3.6px;
+}
+#user01, #user02, #user03, #user04{
+	display:inline-block;
+
+
+	background:#4B6CAB;
+}
+input[type="button"]{
+	color:white;
+	background:#23A72B;
+	position:relative;
+	margin-left:40px;
+	margin-top:-135px;
+}
