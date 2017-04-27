@@ -1,0 +1,40 @@
+body{
+	font-size:16px;
+}
+#abajo{
+	background:pink;
+	color:black;
+	height:718px;
+	padding-left:15px;
+	padding-top:15px;
+	width:98.5;
+}
+#abajo article{
+	display:inline-block;
+	vertical-align:top;
+}
+#abajoIzquierda{
+	width:18px;
+}
+#abajoIzquierda{
+	width:68%;
+}
+#arriba{
+	background:blue;
+	color:white;
+	height:50px;
+	padding:5px;
+	padding-top:20px;
+	text-align:center;
+}
+#arriba button{
+	background:green;
+	color:white;
+	border:none;
+	border-radius:5px;
+	font-size:1em;
+}
+#arriba input{
+	border-radius:5px;
+	font-size:1em;
+}
