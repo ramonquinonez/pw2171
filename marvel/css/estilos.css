@@ -38,3 +38,14 @@ body{
 	border-radius:5px;
 	font-size:1em;
 }
+#imgFoto{
+	border:15px solid red;
+	border-radius:150px;
+	display:none;
+	width:150px;
+}
+#txtNombre{
+	font-size:4em;
+	font-family: "arial";
+	font-weight:bold;
+}
