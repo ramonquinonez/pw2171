@@ -2,7 +2,7 @@ body{
 	font-size:16px;
 }
 #abajo{
-	background:pink;
+	background:orange;
 	color:black;
 	height:718px;
 	padding-left:15px;
@@ -41,7 +41,7 @@ body{
 #imgFoto{
 	border:15px solid red;
 	border-radius:150px;
-	display:none;
+	/*display:none;*/
 	width:150px;
 }
 #txtNombre{
