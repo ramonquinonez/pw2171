@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "paquete": "electron-packager . MarvelAPP --overwrite --icon=logo.ico --asar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +16,13 @@
   "author": "Ramon Quinonez",
   "license": "MIT",
   "devDependencies": {
+    "asas": "^1.0.0",
+    "electron": "^1.6.6",
+    "electron-packager": "^8.7.0",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
     "electron": "^1.6.6",
     "electron-require": "^0.3.0",
     "jquery": "^3.2.1"

@@ -33,10 +33,22 @@ var buscarPersonaje = function(){
 				$("#txtComics").html(cadenaComics);
 			}
 		}
+		
 	})
+	$("#txtPersonaje").val("");//vaciamos el cuadro de texto
+		$("#txtPersonaje").focus();//ponemos el cursor ahi
+}
+var teclaPersonaje = function(tecla){
+	//enter=10 y 13 (avance de linea y retorno de carro)
+	if(tecla.which == 13){
+		buscarPersonaje();
+	}
+
 }
 
 //posiciona el cursor en el cuadro de texto
 $("#txtPersonaje").focus();
 //Evento del boton btnBuscar-click
 $("#btnBuscar").on("click",buscarPersonaje);
+//Activar las teclas que se presionan en el cuadro de texto
+$("#txtPersonaje").on("keypress",teclaPersonaje);
